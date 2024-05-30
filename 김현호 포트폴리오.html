@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>안녕하세요 김현호입니다.</title>
     <style>
+      /* @font-face 규칙을 사용하여 AppleGothic 폰트를 정의합니다 */
+      @font-face {
+        font-family: "AppleGothic";
+        src: url("fonts/AppleGothic.woff2") format("woff2"),
+          /* woff2 포맷 */ url("fonts/AppleGothic.woff") format("woff"),
+          /* woff 포맷 */
+            url("../rlagusghvv.github.io/resources/portfoilo/font/Apple_산돌고딕_Neo/AppleSDGothicNeoB.ttf")
+            format("truetype"); /* ttf 포맷 */
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      /* 기본 스타일에 AppleGothic 폰트를 적용합니다 */
+      body {
+        font-family: "AppleGothic", sans-serif;
+      }
+
       .container {
         display: flex;
         justify-content: space-between;
